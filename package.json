@@ -1,0 +1,24 @@
+{
+    "name": "graphql-api-gateway",
+    "version": "0.0.0",
+    "description": "GraphQL API gateway",
+    "main": "./lib/index.js",
+    "author": "Konstantin Zhukov <kvzhkv@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "node .",
+        "build": "tsc",
+        "dev": "tsc --watch & nodemon ."
+    },
+    "dependencies": {
+        "@apollo/gateway": "^0.8.1",
+        "apollo-server": "^2.8.1",
+        "graphql": "^14.4.2"
+    },
+    "devDependencies": {
+        "@types/graphql": "^14.2.2",
+        "@types/node-fetch": "^2.3.7",
+        "nodemon": "^1.19.1",
+        "typescript": "^3.5.3"
+    }
+}
