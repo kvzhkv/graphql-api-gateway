@@ -1,6 +1,6 @@
 {
     "name": "graphql-api-gateway",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "GraphQL API gateway",
     "main": "./lib/index.js",
     "author": "Konstantin Zhukov <kvzhkv@gmail.com>",
